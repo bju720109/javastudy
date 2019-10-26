@@ -1,0 +1,16 @@
+package String;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "abc";
+//		for(int i = 0; i < 50000; i++) {
+//			s = s + i;
+//		}
+//		System.out.println("end!");
+		StringBuffer sb =  new StringBuffer();
+		for(int i = 0; i < 50000; i++) {
+			sb.append(i);
+		}
+		System.out.println("end!");
+	}
+}
